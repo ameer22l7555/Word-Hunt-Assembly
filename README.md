@@ -6,7 +6,7 @@ This repository contains a collection of Assembly language programs, featuring a
 The main attraction of this repository is the Word Hunt game, implemented in Assembly language.
 
 ### Game Files
-- `humwish.asm` - Main game implementation featuring:
+- `code.asm` - Main game implementation featuring:
   - Two challenging levels
   - Interactive user interface
   - Word search mechanics
