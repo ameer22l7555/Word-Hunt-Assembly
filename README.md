@@ -1,41 +1,51 @@
-# Word Hunt Assembly Game
+# Assembly Code Collection
 
-A classic Word Hunt game implemented in x86 Assembly language. The game features 2 levels and an intro screen, providing an engaging word-finding experience.
+This repository contains a collection of Assembly language programs, including a Word Hunt game implementation and various practice exercises. The main focus is on x86 Assembly programming using NASM assembler and DOSBox emulator.
 
-## Game Features
-- Intro screen
-- 2 implemented levels
-- Word search gameplay
+## Main Project: Word Hunt Game
+- `humwish.asm` - Word Hunt game with 2 levels and intro screen
+
+## Practice and Lab Exercises
+The `Assembly Codes` directory contains various assembly programs:
+
+### Lab Exercises
+- `l3_q1.asm` - Lab 3 Question 1: Array manipulation
+- `l3_q2.asm` - Lab 3 Question 2: Array comparison
+- `l3_q3a.asm` - Lab 3 Question 3a: Value comparison
+- `l3_q3b.asm` - Lab 3 Question 3b: Conditional branching
+
+### Practice Programs
+- `pr.asm` - Array manipulation example
+- `prac.asm` - Input handling practice
+- `program.asm` - Array sorting and statistics
+- `Try1.asm` - Array sorting with bubble sort
+- `t1.asm` - Moving star animation
+- `Midtry.asm` - Lab exercise implementation
+- `T2.asm` - Basic arithmetic operations
+- `try.asm` - Simple comparison and jump
+- `T2Assignment.asm` - Assignment implementation
+- `Program1.asm` - Basic subtraction example
+- `Test.asm` - Basic addition example
 
 ## How to Run
-
-1. Install DOSBox on your system
-2. Mount your directory in DOSBox:
+1. Install DOSBox
+2. Mount your directory:
    ```
    mount c C:\path\to\your\directory
    c:
    ```
-3. Assemble the file using NASM:
+3. Assemble any .asm file:
    ```
-   nasm -f bin code.asm -o code.com
+   nasm -f bin filename.asm -o filename.com
    ```
-4. Run the game:
+4. Run the program:
    ```
-   code.com
+   filename.com
    ```
 
 ## Requirements
 - DOSBox
 - NASM (Netwide Assembler)
 
-## Game Instructions
-1. The game presents a grid of letters
-2. Find the hidden words in the grid
-3. Complete each level by finding all words
-4. Progress through both levels to win
-
-## Development
-This game was developed using x86 Assembly language and is designed to run in a DOS environment through DOSBox emulation.
-
 ## Note
-Make sure you have DOSBox and NASM properly installed and configured on your system before running the game.
+All programs are written in x86 Assembly language and are designed to run in a DOS environment through DOSBox emulation.
