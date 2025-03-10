@@ -17,11 +17,11 @@ A classic Word Hunt game implemented in x86 Assembly language. The game features
    ```
 3. Assemble the file using NASM:
    ```
-   nasm -f bin humwish.asm -o humwish.com
+   nasm -f bin code.asm -o code.com
    ```
 4. Run the game:
    ```
-   humwish.com
+   code.com
    ```
 
 ## Requirements
